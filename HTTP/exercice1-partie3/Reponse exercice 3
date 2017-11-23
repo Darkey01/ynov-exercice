@@ -1,0 +1,4 @@
+1) Dans longlet réseau on voit que les images sont chargées au fur et a mesure (5 images au departs) etc
+2) chaque une des request possèdent plusiuers  phases : une phase de queuing
+  une phase de stalled, une phase de waiting (ttfb) et une de download du contenu
+3)Pour accélerer le chargement de la page il faut gerer le cache des images

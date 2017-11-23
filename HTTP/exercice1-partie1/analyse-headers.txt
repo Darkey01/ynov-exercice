@@ -1,0 +1,24 @@
+Request Headers :
+
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8    -> les types de contenu
+que le client sera capable d'interpréter
+Accept-Encoding:gzip, deflate, br   ->  l'encodage du contenu
+Accept-Language:fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7 -> langues que le client est capable de comprendre
+Connection:keep-alive   ->  spécifie l'état de la connection après les transaction finis
+Host:localhost  -> spécifie le nom de domaine du serveur
+Upgrade-Insecure-Requests:1 ->  envoie un signal au serveur exprimant la préférence du client pour une réponse cryptée
+et authentifiée
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/62.0.3202.94 Safari/537.36   -> Type d'application, version logiciel, système d'exploit etc
+
+Response Headers  :
+
+Accept-Ranges:bytes    ->
+Connection:Keep-Alive
+Content-Length:132
+Content-Type:text/html
+Date:Thu, 23 Nov 2017 13:25:47 GMT
+ETag:"84-55ea6461581c0"
+Keep-Alive:timeout=5, max=100
+Last-Modified:Thu, 23 Nov 2017 13:18:36 GMT
+Server:Apache/2.4.27 (Win64) PHP/7.1.9
