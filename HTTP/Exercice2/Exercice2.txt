@@ -1,0 +1,3 @@
+On peut contaster que l'on effectue en plus 20 requete http a l'url concernée, elles partent toutes en même temps.
+on voit également que le download des images se fait également directement. Cependant a chaque rechargement de la page
+on ne se sert pas du cache.
